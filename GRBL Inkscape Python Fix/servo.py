@@ -801,7 +801,7 @@ def csp_to_arc_distance(sp1,sp2, arc1, arc2, tolerance = 0.01 ): # arc = [start,
             t = float(j)/n
             p = csp_at_t(sp1,sp2,t) 
             d = min(point_to_arc_distance(p,arc1), point_to_arc_distance(p,arc2))
-            d1 = max(d1,d)
+            d1 = d if d[0] > d1[0] else d1
         n=n*2
     return d1[0]
 
