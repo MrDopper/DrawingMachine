@@ -4,7 +4,7 @@
 
 **Project type:** Personal robotics / automation project  
 **Build period:** Approximately three weeks  
-**Status:** Working prototype; software workflow improvements in progress
+**Status:** Working prototype; software workflow improvements in progress for Steamoji
 
 ## Demo
 
@@ -15,6 +15,10 @@
 ## Why I built it
 
 I built this CNC drawing machine to explore how software instructions become physical movement and to make real-world automation more approachable for students. The project combines mechanical assembly, an Arduino-based motion controller, G-code, and a browser-based control workflow.
+
+Also, I developed the prototype with Steamoji Richmond Central, a STEM learning academy, in mind. After completing the initial build in approximately two weeks, I presented the machine and a proposed curriculum to academy management as a potential product for hands-on STEM activities.
+The machine and educational package were proposed for sale; this repository does not represent a completed purchase, installation, or classroom deployment by Steamoji.
+What motivated me was not only building the machine itself, but the opportunity to help students learn how to work with real life problem. 
 
 For me, the most valuable part of this build was **integrating hardware and software, diagnosing problems, and turning a prototype into a system someone else could understand and operate.**
 
