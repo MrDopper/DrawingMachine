@@ -54,7 +54,6 @@ I have also been investigating an **Inkscape vector-to-G-code workflow**. Simple
 | Design workflow | Inkscape; image tracing and G-code extension compatibility under investigation |
 | Development environment | macOS |
 
-*Exact motor, driver, power-supply, and controller specifications will be added alongside the wiring diagram and bill of materials.*
 
 ## What I contributed
 
@@ -67,20 +66,8 @@ I have also been investigating an **Inkscape vector-to-G-code workflow**. Simple
 ## Current limitations and next steps
 
 - Improve the reliability of the **Inkscape -> G-code** workflow, especially for traced images with many nodes.
-- Add confirmed wiring diagrams, a bill of materials, and firmware/configuration notes.
-- Publish a small collection of tested G-code examples with photos of the resulting drawings.
 - Document machine calibration, repeatability tests, common errors, and how they were resolved.
-- Expand the educational demonstrations and lesson materials.
 
-## Operating workflow (high level)
-
-1. Prepare or obtain a G-code file compatible with the machine.
-2. Connect the Arduino controller to the computer over USB.
-3. Start Serial Port JSON Server and connect through the ChiliPeppr GRBL interface.
-4. Check the coordinate directions, travel range, and drawing-tool clearance before sending commands.
-5. Load, review, and run the G-code while supervising the machine.
-
-*This is an overview, not yet a complete build or installation guide. Firmware settings and machine-specific calibration should be verified before use.*
 
 ## Credits
 
