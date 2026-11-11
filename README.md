@@ -54,25 +54,15 @@ I have also been investigating an **Inkscape vector-to-G-code workflow**. Simple
 | Design workflow | Inkscape; image tracing and G-code extension compatibility under investigation |
 | Development environment | macOS |
 
-
 ## What I contributed
 
 - **Hardware integration:** Assembled the machine and connected the motion-control hardware with the controller.
 - **Controller setup:** Configured and troubleshot communication between the Arduino/GRBL system and a computer-based control interface.
 - **Software troubleshooting:** Investigated vector-path preparation, G-code export, and compatibility issues with an older Inkscape extension.
 - **Application design:** Explored how the machine could support hands-on teaching about G-code, machining concepts, and computer-controlled movement.
-- **Documentation:** Recorded the system workflow, known limitations, and next steps so the project can be improved and reproduced.
 
 ## Current limitations and next steps
 
 - Improve the reliability of the **Inkscape -> G-code** workflow, especially for traced images with many nodes.
 - Document machine calibration, repeatability tests, common errors, and how they were resolved.
 
-
-## Credits
-
-This build was **inspired by / based on the CNC Drawing Machine project from [DIY Machines](https://www.diymachines.co.uk/arduino-cnc-drawing-machine)**. The original project provides reference design resources and software. My focus here is my own assembly, configuration, integration, troubleshooting, documentation, and educational application. Original third-party source files and designs retain their respective attribution and licenses.
-
-## About the builder
-
-Built and documented by **Jackson Vi** as a hands-on robotics and automation project.
